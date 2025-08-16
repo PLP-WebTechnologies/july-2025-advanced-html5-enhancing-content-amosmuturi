@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wk1 Assignment</title>
+</head>
+<body>
+    <h1>Customer Information</h1>
+    <h2>Types of Rooms</h2>
+    <ul>
+        <li>Regular</li>
+        <li>Premium</li>
+        <li>VIP</li>
+    </ul>
+    <h3>Our Hotels</h3>
+<table>
+    <tr>
+        <th>Hotel name</th>
+        <th>Location</th>
+        <th>Rooms</th>
+    </tr>
+    <tr>
+        <td>Orion</td>
+        <td>Wonderland</td>
+        <td>Deluxe</td>
+    </tr>
+    <tr>
+        <td>Luna</td>
+        <td>Builderland</td>
+        <td>Standard</td>
+    </tr>
+    <tr>
+        <td>Getalt</td>
+        <td>Chocolaty</td>
+        <td>Suite</td>
+</table>
+<br>
+<br>
+<form action="/submit" method="post">
+    <h4>Book With Us</h4>
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required placeholder="e.g John Doe" autocomplete="name">
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required placeholder="e.g john@example.com" autocomplete="email">
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" autocomplete="age">
+    <p>Any other Information</p>
+    <textarea id="info" name="info" rows="4" cols="50" placeholder="Enter any other information here..."></textarea>
+    <br>
+    <input type="submit" value="Submit">
+</form>
+<br>
+<br>
+    <figure>
+        <img src="Hotel-Review-InterContinental-Shanghai-Wonderland.webp" alt="Wonderland">
+        <figcaption>InterContinental Shanghai Wonderland</figcaption>
+    </figure>
+</body>
+</html>
